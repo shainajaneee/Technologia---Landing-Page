@@ -1,0 +1,217 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      color: #f0f0f0;
+      background: #0c0c0c;
+    }
+
+    /* Navbar */
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 40px;
+      background: #111;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav h1 {
+      color: #ff4500;
+      font-size: 1.6rem;
+      letter-spacing: 2px;
+      text-shadow: 0 0 8px #ff6a00;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #f0f0f0;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ff4500;
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      background: url('https://dlcdnrog.asus.com/rog/media/1694112562305.webp') no-repeat center center/cover;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: white;
+      padding: 0 20px;
+      position: relative;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0,0,0,0.65);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      color: #ff4500;
+      text-shadow: 0 0 15px #ff6a00, 0 0 30px #ff6347;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+    /* Navbar Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  width: 40px;
+  height: 40px;
+}
+
+
+    .btn {
+      padding: 12px 28px;
+      background: linear-gradient(45deg, #ff4500, #ff6a00);
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 0 12px #ff4500;
+    }
+
+    .btn:hover {
+      background: linear-gradient(45deg, #ff6a00, #ff4500);
+      box-shadow: 0 0 25px #ff6a00;
+    }
+
+    /* Sections */
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      color: #ff4500;
+      text-shadow: 0 0 12px #ff6a00;
+      margin-bottom: 30px;
+    }
+
+    section p {
+      max-width: 800px;
+      margin: auto;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.6;
+    }
+
+    /* Services */
+    .services {
+      background: #111;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .service {
+      background: #1a1a1a;
+      border-radius: 12px;
+      padding: 20px;
+      transition: transform 0.3s, box-shadow 0.3s;
+      border: 1px solid rgba(255, 69, 0, 0.4);
+    }
+
+    .service:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 0 20px #ff4500;
+    }
+
+    .service img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .service h3 {
+      color: #ff6347;
+      margin-bottom: 10px;
+      text-shadow: 0 0 6px #ff6a00;
+    }
+
+    /* Contact Form */
+    .contact form {
+      max-width: 600px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .contact input, .contact textarea {
+      padding: 12px;
+      border: none;
+      border-radius: 8px;
+      outline: none;
+      font-size: 1rem;
+    }
+
+    .contact button {
+      padding: 12px;
+      background: linear-gradient(45deg, #ff4500, #ff6a00);
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      color: #fff;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .contact button:hover {
+      background: linear-gradient(45deg, #ff6a00, #ff4500);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #000;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
