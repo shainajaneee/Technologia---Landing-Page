@@ -1,17 +1,26 @@
-# Technologia Landing Page
+# Technologia - Landing Page
 
-A modern landing page for **Technologia**, showcasing high-performance computer accessories such as gaming mice, keyboards, headsets, and GPUs.
+Technologia is a modern, responsive landing page for a **tech accessories store**. It is designed to showcase high-performance computer accessories, provide user testimonials, and offer a seamless contact experience.  
 
-## 🚀 Features
-- Responsive navbar with logo
-- Hero section with call-to-action
-- About section introducing the brand
-- Product showcase (mouse, keyboard, headset, GPU)
-- Contact form
-- Clean footer
+This project demonstrates **HTML, CSS, JavaScript**, and responsive design principles for portfolio purposes.  
 
-## 🛠️ Built With
-- HTML5
-- CSS3
-- Font Awesome Icons
+## Features
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.  
+- **Hero Section:** Eye-catching introduction with a call-to-action button.  
+- **About Section:** Company information and mission statement.  
+- **Services Section:** Showcase of products like gaming mice, mechanical keyboards, headsets, and GPUs.  
+- **Testimonials Carousel:** Interactive section displaying customer reviews.  
+- **Contact Section:** Split layout with "Connect With Us" info and a contact form.  
+- **Login / Sign-Up Modal:** Interactive modal for authentication forms.  
+- **Footer:** Includes privacy policy and terms of service links.  
+
+## Tech Stack
+- **HTML5** for structure  
+- **CSS3** for styling  
+- **JavaScript** for interactive features (carousel, modal)  
+- **Font Awesome** for icons  
+
+## Demo
+You can view the live demo here: [Insert Netlify or GitHub Pages Link]  
+
 
