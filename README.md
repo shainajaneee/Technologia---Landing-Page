@@ -21,6 +21,6 @@ This project demonstrates **HTML, CSS, JavaScript**, and responsive design princ
 - **Font Awesome** for icons  
 
 ## Demo
-You can view the live demo here: [Insert Netlify or GitHub Pages Link]  
+You can view the live demo here: https://techaccesories.netlify.app/  
 
 
